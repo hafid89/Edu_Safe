@@ -1,0 +1,16 @@
+{
+    "name": "edusafe/crypto-app",
+    "description": "Secure Educational Platform with Cryptography",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "files": [
+            "includes/auth.php",
+            "includes/encryption_engine.php",
+            "includes/steganography.php",
+            "includes/file_processor.php"
+        ]
+    }
+}
