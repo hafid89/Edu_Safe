@@ -12,5 +12,8 @@
             "includes/steganography.php",
             "includes/file_processor.php"
         ]
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:$PORT -t ."
     }
 }
